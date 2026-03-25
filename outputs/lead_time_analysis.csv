@@ -1,0 +1,6 @@
+supplier_name,avg_lead_time,min_lead_time,max_lead_time,lead_time_variability,total_orders,risk_category
+Supplier 4,15.22,1.0,29.0,28.0,18,High Risk
+Supplier 2,18.55,2.0,30.0,28.0,22,High Risk
+Supplier 1,14.78,1.0,29.0,28.0,27,High Risk
+Supplier 5,18.06,1.0,28.0,27.0,18,High Risk
+Supplier 3,20.13,5.0,30.0,25.0,15,High Risk

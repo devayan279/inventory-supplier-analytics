@@ -1,0 +1,13 @@
+routes,transportation_modes,avg_shipping_cost,avg_shipping_time,total_revenue,defect_count
+Route A,Air,7.055,5.273,57761.43,3
+Route A,Rail,4.667,6.357,82667.062,1
+Route A,Road,5.613,5.364,68770.975,4
+Route A,Sea,3.806,7.571,43999.385,1
+Route B,Air,5.269,5.286,43434.028,2
+Route B,Rail,6.27,6.636,61922.833,2
+Route B,Road,5.531,4.769,66770.046,4
+Route B,Sea,4.609,6.5,32357.102,2
+Route C,Air,5.247,4.75,54539.892,2
+Route C,Rail,6.276,7.333,20400.523,1
+Route C,Road,5.414,3.2,23774.212,2
+Route C,Sea,7.549,7.25,21207.333,1

@@ -1,0 +1,6 @@
+supplier_name,total_skus,avg_lead_time,avg_defect_rate,avg_shipping_cost,total_revenue,supplier_performance
+Supplier 1,27,14.78,1.8,5.51,157529.0,Top Supplier
+Supplier 2,22,18.55,2.36,5.74,125467.42,Average Supplier
+Supplier 5,18,18.06,2.67,5.79,110343.46,Average Supplier
+Supplier 3,15,20.13,2.47,4.79,97795.98,Average Supplier
+Supplier 4,18,15.22,2.34,5.76,86468.96,Average Supplier
