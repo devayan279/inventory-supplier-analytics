@@ -119,6 +119,32 @@ Dashboard pages cover:
 
 ---
 
+## Dashboard Preview
+
+The Power BI dashboard spans 4 pages:
+
+**Page 1 — Inventory Overview**
+![Inventory Overview](powerbi/dashboard_preview.pdf)
+
+> Key callout: A-category SKUs drive the majority of revenue (skincare leads at ₹1,83,295),
+> but ~30% of SKUs are at stockout risk — a direct revenue leakage signal.
+
+**Page 2 — Supplier Performance**
+> Supplier 1 has the lowest lead time (14.78 days) and is the only Top Supplier.
+> Supplier 5 carries the highest combined risk on lead time and defect rate.
+
+**Page 3 — Lead Time Analysis**
+> All 5 suppliers are High Risk — variability ranges of 25–28 days indicate
+> unpredictable procurement cycles despite differing average lead times.
+
+**Page 4 — Route & Transportation Analysis**
+> Route A via Rail generates the highest revenue (₹82,667). Sea transport
+> is consistently the lowest-cost but lowest-revenue mode across all routes.
+
+🔗 [View full dashboard (PDF)](powerbi/dashboard_preview.pdf)
+
+--- 
+
 ## Tech Stack
 
 - **Python** — pandas, NumPy (data cleaning, classification logic, CSV exports)
