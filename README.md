@@ -22,29 +22,28 @@ Raw supply chain data (100 SKUs across 3 product categories, 5 suppliers) is ing
 inventory-supplier-analytics/
 │
 ├── data/
-│   └── supply_chain_data.csv          # Raw dataset (100 SKUs, 22 columns)
+│   └── supply_chain_data.csv          
 │
 ├── notebook/
-│   ├── 01_etl_and_db_load.ipynb       # Data cleaning, validation, SQLite ingestion
-│   └── 02_inventory_analysis.ipynb    # ABC classification, inventory health, supplier metrics
+│   ├── 01_etl_and_db_load.ipynb       
+│   └── 02_inventory_analysis.ipynb    
 │
 ├── outputs/
-│   ├── inventory_master.csv           # Cleaned master dataset
-│   ├── inventory_health.csv           # Stock-to-demand ratios and status flags
-│   ├── supplier_scorecard.csv         # Supplier performance summary
-│   ├── lead_time_analysis.csv         # Lead time variability and risk tiers
-│   ├── abc_xyz_classification.csv     # Full ABC-XYZ labels per SKU
-│   └── abc_summary.csv                # ABC class summary with revenue and stockout %
-│
+│   ├── inventory_master.csv           
+│   ├── inventory_health.csv          
+│   ├── supplier_scorecard.csv         
+│   ├── lead_time_analysis.csv       
+│   ├── abc_xyz_classification.csv     
+│   └── abc_summary.csv              
 ├── sql/
-│   ├── 01_schema_and_load.sql         # Table creation and data load
-│   ├── 02_inventory_health.sql        # Inventory health query
-│   ├── 03_supplier_scorecard.sql      # Supplier scorecard query
-│   ├── 04_lead_time_analysis.sql      # Lead time risk query
-│   └── 05_abc_xyz_classification.sql  # ABC-XYZ classification query
+│   ├── 01_schema_and_load.sql        
+│   ├── 02_inventory_health.sql       
+│   ├── 03_supplier_scorecard.sql      
+│   ├── 04_lead_time_analysis.sql     
+│   └── 05_abc_xyz_classification.sql  
 │
 ├── powerbi/
-│   └── Power BI devayan.pbix          # Dashboard file (connects to outputs/ CSVs)
+│   └── Power BI devayan.pbix          
 │
 ├── .gitignore
 ├── LICENSE
