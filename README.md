@@ -52,7 +52,7 @@ inventory-supplier-analytics/
 
 ---
 
-**## Dataset
+## Dataset
 
 **Source:** Synthetic supply chain dataset  
 **Scope:** 100 SKUs across 3 product categories (skincare, haircare, cosmetics) and 5 suppliers  
